@@ -57,6 +57,14 @@
 ![image](https://github.com/user-attachments/assets/063e476e-1a12-4885-80e1-89588fc221e5)
 
 
+
+##### Остальные модели 
+
+По аналогии создайте модели для других таблиц
+
+![image](https://github.com/user-attachments/assets/4e995a2f-fdd0-4927-b7a3-6a700f4e7ca4)
+
+
 ---
 
 
@@ -91,8 +99,14 @@ CRUD (Create, Read, Update, Delete) — это стандартные опера
 3. Нажмите **Preview**, затем **Generate**.
 4. Gii создаст контроллер `RequestController` и представления для CRUD в папке `views/user/`.
 
+#### Остальные контроллеры
 
-![image](https://github.com/user-attachments/assets/408b9676-302c-40b9-a93f-8c9059a39acc)
+По аналогии создайте контроллеры и представляния для других таблиц
+
+![image](https://github.com/user-attachments/assets/8f0a376a-5e79-43af-8fd8-962a6bbc01b7)
+
+![image](https://github.com/user-attachments/assets/2cc2ea9a-c6e6-43c7-a059-e99f49f90fef)
+
 
 
 ---
@@ -107,8 +121,7 @@ CRUD (Create, Read, Update, Delete) — это стандартные опера
            'enablePrettyUrl' => true,
            'showScriptName' => false,
            'rules' => [
-               'user/register' => 'user/register',
-               'request/create' => 'request/create',
+              
            ],
        ],
    ],
@@ -133,15 +146,20 @@ CRUD (Create, Read, Update, Delete) — это стандартные опера
    - `http://cleaning_portal/web/request/update` **Должна быть ошибка #400**
    - `http://cleaning_portal/web/request/delete` **Должна быть ошибка #405**
 
-2. Как вы видете, Yii2 создал формы добавления в базу данных. Далее, `user/create` мы будем использовать для регистрации
+   По аналогии пройдитесь по адресам всех контроллеров:
+      status/index
+      role/index
+      ... и тд
+
+3. Как вы видите, Yii2 создал формы добавления в базу данных. Далее, `user/create` мы будем использовать для регистрации
 
 
 ---
 
 ### Итог
 Теперь у вас есть:
-- Модели `User` и `Request` для работы с данными.
-- Контроллеры `UserController` и `RequestController`.
+- Модели `User`, `Request`, `Status`, `Role`, `Payment`, `Service` для работы с данными.
+- Контроллеры для моделей
 - Представления для регистрации пользователей и работы с заявками.
 
 В следующей лекции мы реализуем функционал регистрации, авторизации и создания заявок.
