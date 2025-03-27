@@ -163,3 +163,6 @@ CRUD (Create, Read, Update, Delete) — это стандартные опера
 - Представления для регистрации пользователей и работы с заявками.
 
 В следующей лекции мы реализуем функционал регистрации, авторизации и создания заявок.
+
+### [Следующая лекция](https://github.com/petrocollege-web/4.-Registration)
+### [Предыдущая лекция ](https://github.com/petrocollege-web/2.-Yii2-install)
