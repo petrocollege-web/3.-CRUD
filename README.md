@@ -7,12 +7,13 @@
    'modules' => [
        'gii' => [
            'class' => 'yii\gii\Module',
-           'allowedIPs' => ['127.0.0.1', '::1'], // Разрешить доступ только с localhost
+           'allowedIPs' => ['127.0.0.1', '::1', 'ВАШ IP АДРЕС ИЗ ПРОФИЛЯ WSR.RU'], // Разрешить доступ только с localhost
        ],
    ],
    ```
 3. Сохраните файл.
 
+<img width="1214" height="588" alt="image" src="https://github.com/user-attachments/assets/ac8b1290-ff66-4138-8d46-4d28c257cc6d" />
 
 ---
 
