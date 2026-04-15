@@ -14,6 +14,7 @@
 3. Сохраните файл.
 
 <img width="1214" height="588" alt="image" src="https://github.com/user-attachments/assets/ac8b1290-ff66-4138-8d46-4d28c257cc6d" />
+<img width="827" height="151" alt="image" src="https://github.com/user-attachments/assets/37973b4f-f3fc-4b87-98ea-47fb0fed1587" />
 
 ---
 
